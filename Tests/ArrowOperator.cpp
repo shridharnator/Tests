@@ -10,6 +10,6 @@ int main() {
 	Entity e;
 	e.print();
 	Entity* ptr = &e;
-	*ptr.print();
+	ptr->print();
 	return 0;
 }
